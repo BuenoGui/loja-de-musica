@@ -55,6 +55,12 @@ section .container div {
 
 section .container ul img {
     margin: 10px;
-    width: 50px;
+    width: 120px;
+    height: 120px;
 }
 
+section .container ul {
+    display: flex;
+    flex-direction: column;
+    columns: 2;
+}
