@@ -2,14 +2,13 @@ body {
     background-color: rgb(223, 222, 222);
 }
 
-body section {
-    display: inline;
-}
-
-header {
+header, footer {
     padding: 16px 0;
     background-color: rgb(165, 42, 42);
-    
+}
+
+footer {
+    color: rgb(255, 255, 255);
 }
 
 header h1 {
@@ -17,8 +16,7 @@ header h1 {
     margin-left: 22px;
 }
 
-header .container,
-body section {
+header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -36,16 +34,16 @@ header nav li a {
 }
 
 section .container img {
-    max-width: 540px;
-    width: 70%;
-    margin: 4% 8%;
+    margin: 4% 16%;
+    max-width: 680px;
+    max-height: 720px;
 }
 
-.container div {
-    background-color: antiquewhite;
+.container .text_content {
+    background-color: aquamarine;
     display: flex;
-    width: 540px;
-    margin: -2% 8%;
+    width: 54.5%;
+    margin: -2% 16%;
 }
 
 section .container div {
@@ -54,13 +52,20 @@ section .container div {
 }
 
 section .container ul img {
-    margin: 10px;
-    width: 120px;
-    height: 120px;
+    margin: 45px 38px;
+    width: 160px;
+    height: 160px;
 }
 
 section .container ul {
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sections {
     display: flex;
-    flex-direction: column;
-    columns: 2;
+    align-items: center;
+    margin: 0;
+    margin-right: 16%;
 }
