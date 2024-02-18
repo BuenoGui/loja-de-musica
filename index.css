@@ -51,7 +51,7 @@ section .container div {
     align-items: center;
 }
 
-section .container ul img {
+.sections section .container ul img {
     margin: 45px 38px;
     width: 160px;
     height: 160px;
@@ -70,13 +70,6 @@ section .container ul {
     margin-right: 16%;
 }
 
-.redes_sociais li a {
-    text-decoration: none;
-}
-
-.metodos_de_contato {
-    margin-left: 2%;
-}
 
 form input,
 form textarea,
@@ -98,7 +91,7 @@ section h2 {
 }
 
 form button {
-    background-color: rgba(137, 43, 226, 0.829);
+    background-color: brown;
     font-size: 34px;
     border: none;
     border-radius: 10px;
@@ -106,11 +99,43 @@ form button {
 }
 
 form button:hover {
-    background-color: rgba(137, 43, 226, 0.56);
+    background-color: rgba(216, 17, 17, 0.781);
     transition: 1.2s;
     
 }
 
 input:focus, textarea:focus {
-    outline-color: rgb(255, 110, 243);
+    outline-color: brown;
+}
+
+#comprar div ul {
+    display: flex;
+}
+
+#comprar div ul li img {
+    width: 80px;
+    margin: 15px 26px;
+}
+
+#comprar .container div {
+    display: flex;
+    width: 33%;
+}
+
+#comprar {
+    display: block;
+    margin: 3% 2%;
+}
+
+#comprar .metodos_de_contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes_sociais {
+    list-style-type: none
+}
+
+#instrumentos {
+    cursor: pointer;
 }
