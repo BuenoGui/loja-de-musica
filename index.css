@@ -40,7 +40,7 @@ section .container img {
 }
 
 .container .text_content {
-    background-color: aquamarine;
+    background-color: rgba(201, 152, 104, 0.466);
     display: flex;
     width: 54.5%;
     margin: -2% 16%;

@@ -37,12 +37,12 @@
         <section>
             <div class="container">
                 <ul id="instrumentos">
-                    <li><img src="imagens/bateria.png" alt="uma bateria" id="bateria"> </li>
-                    <li><img src="imagens/piano.png" alt="um piano" id="piano"> </li>
-                    <li><img src="imagens/gaita.png" alt="uma gaita" id="gaita"> </li>
-                    <li><img src="imagens/flauta.png" alt="uma flauta" id=""> </li>
-                    <li><img src="imagens/viola_caipira.png" alt="uma viola caipira" id="viola"> </li>
-                    <li><img src="imagens/violino.png" alt="um violino" id="violino"> </li>
+                    <li><img src="imagens/bateria.png" alt="uma bateria" onclick="playBateria()"> </li>
+                    <li><img src="imagens/piano.png" alt="um piano" onclick="playPiano()"> </li>
+                    <li><img src="imagens/gaita.png" alt="uma gaita" onclick="playGaita()"> </li>
+                    <li><img src="imagens/flauta.png" alt="uma flauta" onclick="playFlauta()"> </li>
+                    <li><img src="imagens/viola_caipira.png" alt="uma viola caipira" onclick="playViola()"> </li>
+                    <li><img src="imagens/violino.png" alt="um violino" onclick="playViolino()"> </li>
                 </ul>
             </div>
         </section>
@@ -99,5 +99,14 @@
             </p>
         </div>
     </footer>
+
+    <audio id="bateria" src="sons/bateria_som.mp3"></audio>
+    <audio id="piano" src="sons/piano_som.mp3"></audio>
+    <audio id="gaita" src="sons/gaita_som.mp3"></audio>
+    <audio id="flauta"" src="sons/flauta_som.mp3"></audio>
+    <audio id="viola" src="sons/viola_som.mp3"></audio>
+    <audio id="violino" src="sons/violino_som.mp3"></audio>
+
+    <script src="index.js"></script>
 </body>
 </html>
